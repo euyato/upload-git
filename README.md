@@ -1,5 +1,19 @@
 # Upload Bot para GitHub
 
+<h1 align="center">
+<p>
+<img src= "https://nexus-api.shop/v7g34m.jpg" alt="ANGEL BASE" width="720">
+</p>
+
+<p align="center">
+<a href="#"><img title="BOT-MULTI-DEVICE" src="https://img.shields.io/badge/BOT•MULTI•DEVICE-blue?&style=for-the-badge"></a>
+</p>
+
+<p align="center">
+<img title="Autor" src="https://img.shields.io/badge/Autor-@euyato-orange.svg?style=for-the-badge&logo=github"></a>
+<img title="Versão" src="https://img.shields.io/badge/Versão-2.5-orange.svg?style=for-the-badge&logo=github"></a>
+</p>
+
 Automatize o envio do seu projeto para o GitHub diretamente pelo Termux ou qualquer terminal Linux!
 
 ---
@@ -18,32 +32,17 @@ Automatize o envio do seu projeto para o GitHub diretamente pelo Termux ou qualq
    BRANCH="main"                # Nome do branch (troque se necessário)
    ```
 
-   > **Exemplo de configuração:**
-   >
-   > ![Imagem da configuração das credenciais](./imagens/credenciais.png)
-
-3. **Dê permissão de execução ao script** (se necessário):
-   
-   ```bash
-   chmod +x upload-bot.sh
-   ```
-
-4. **Acesse a pasta do projeto** onde você colocou o script:
+3. **Acesse a pasta do projeto** onde você colocou o script:
 
    ```bash
    cd /caminho/do/seu/projeto
    ```
 
-5. **Execute o script**:
+4. **Execute o script**:
    
    ```bash
    sh upload-bot.sh
    ```
-
-   > **Exemplo de execução no Termux:**
-   >
-   > ![Imagem da execução no Termux](./imagens/termux.png)
-
 ---
 
 ## O que o script faz?
@@ -70,11 +69,5 @@ Automatize o envio do seu projeto para o GitHub diretamente pelo Termux ou qualq
 
 - O token é inserido diretamente na URL de envio, então **não compartilhe seu script publicamente**.
 - Prefira tokens com permissões limitadas para aumentar a segurança.
-
----
-
-## Autor
-
-- Feito por **Yato**.
 
 ---
