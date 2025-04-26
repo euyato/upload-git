@@ -1,20 +1,18 @@
-# Upload Bot para GitHub
+# Upload para o GitHub
 
 <h1 align="center">
 <p>
-<img src= "https://nexus-api.shop/v7g34m.jpg" alt="ANGEL BASE" width="720">
+<img src= "https://files.catbox.moe/jijqo6.jpg" alt="UPLOAD" width="720">
 </p>
 
 <p align="center">
-<a href="#"><img title="BOT-MULTI-DEVICE" src="https://img.shields.io/badge/BOT•MULTI•DEVICE-blue?&style=for-the-badge"></a>
+<a href="#"><img title="SCRIPT-BASH" src="https://img.shields.io/badge/BOT•MULTI•DEVICE-blue?&style=for-the-badge"></a>
 </p>
 
 <p align="center">
 <img title="Autor" src="https://img.shields.io/badge/Autor-@euyato-orange.svg?style=for-the-badge&logo=github"></a>
-<img title="Versão" src="https://img.shields.io/badge/Versão-2.5-orange.svg?style=for-the-badge&logo=github"></a>
-</p>
 
-Automatize o envio do seu projeto para o GitHub diretamente pelo Termux ou qualquer terminal Linux!
+Automatize o envio do seu projeto para o GitHub diretamente pelo Termux ou qualquer terminal Linux
 
 ---
 
@@ -25,11 +23,11 @@ Automatize o envio do seu projeto para o GitHub diretamente pelo Termux ou qualq
 2. **Configure suas credenciais** dentro do `upload-bot.sh`:
    
    ```sh
-   GITHUB_USER="SeuUserAqui"    # Seu usuário do GitHub
-   REPO_NAME="SeuRepoAqui"      # Nome do repositório
-   TOKEN="SeuTokenAqui"         # Token de acesso pessoal do GitHub
+   GITHUB_USER="SeuUserAqui" # Seu usuário do GitHub
+   REPO_NAME="SeuRepoAqui" # Nome do repositório
+   TOKEN="SeuTokenAqui" # Token de acesso pessoal do GitHub
    COMMIT_MESSAGE="Atualização do bot"
-   BRANCH="main"                # Nome do branch (troque se necessário)
+   BRANCH="main" # Nome do branch (troque se necessário)
    ```
 
 3. **Acesse a pasta do projeto** onde você colocou o script:
