@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-<a href="#"><img title="SCRIPT-BASH" src="https://img.shields.io/badge/BOT•MULTI•DEVICE-blue?&style=for-the-badge"></a>
+<a href="#"><img title="SCRIPT-BASH" src="https://img.shields.io/badge/SCRIPT•BASH-blue?&style=for-the-badge"></a>
 </p>
 
 <p align="center">
