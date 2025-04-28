@@ -28,7 +28,9 @@ Automatize o envio do seu projeto para o GitHub diretamente pelo Termux ou qualq
    TOKEN="SeuTokenAqui" # Token de acesso pessoal do GitHub
    COMMIT_MESSAGE="Atualização do bot"
    BRANCH="main" # Nome do branch (troque se necessário)
-   ```
+   GIT_NAME="Seu usuario github" # Nome que aparecerá nos commits
+   GIT_EMAIL="seuemail@example.com" # Email que aparecerá nos commits
+  ```
 
 3. **Acesse a pasta do projeto** onde você colocou o script:
 
@@ -45,6 +47,7 @@ Automatize o envio do seu projeto para o GitHub diretamente pelo Termux ou qualq
 
 ## O que o script faz?
 
+- Instala pacote git caso não tenha
 - Verifica se a pasta é um repositório Git.
 - Se **não for**, inicializa e configura o `remote` para o GitHub.
 - Verifica se o Git está configurado (nome e e-mail).
@@ -52,12 +55,13 @@ Automatize o envio do seu projeto para o GitHub diretamente pelo Termux ou qualq
 - Adiciona todos os arquivos (`git add .`).
 - Faz um commit com a mensagem definida.
 - Envia (`git push`) para o repositório remoto.
+- Faz o commit de atualização caso tenha alterado pastas/arquivos e exista add.
 
 ---
 
 ## Requisitos
 
-- Git instalado.
+- Git instalado no terminal.
 - Acesso ao Termux ou terminal Linux.
 - Token do GitHub com permissões de repositório.
 
