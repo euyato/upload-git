@@ -30,16 +30,16 @@ Automatize o envio do seu projeto para o GitHub diretamente pelo Termux ou qualq
    BRANCH="main" # Nome do branch (troque se necessário)
    GIT_NAME="Seu usuario github" # Nome que aparecerá nos commits
    GIT_EMAIL="seuemail@example.com" # Email que aparecerá nos commits
-  ```
+   ```
 
 3. **Acesse a pasta do projeto** onde você colocou o script:
 
    ```bash
 cd /caminho/do/seu/projeto
-   ```
+    ```
 
 4. **Execute o script**:
-   
+
    ```bash
    sh upload-bot.sh
    ```
